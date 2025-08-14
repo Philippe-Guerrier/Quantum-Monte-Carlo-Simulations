@@ -1,4 +1,4 @@
-# Quantum Monte Carlo Simulations — Estimating π with Qiskit
+# Quantum Monte Carlo Simulations - Estimating π with Qiskit
 
 This project demonstrates a **Monte Carlo estimation of π** using **quantum-generated pseudo-random numbers** built from simple Qiskit circuits. The notebook sweeps a parameterized circuit to sample points `(x, y)` in `[0, 1]^2`, counts how many fall inside the unit quarter-circle, and estimates π via `π ≈ 4 * inside / total`.
 
@@ -66,12 +66,12 @@ If you prefer Qiskit ≥ 1.0, see the execution note below.
 
 ## How to Run
 
-### Option A — Jupyter
+### Option A - Jupyter
 1. Create and activate a virtual environment (optional).
 2. Install dependencies.
 3. Open the notebook and run all cells. The notebook prints intermediate π estimates and shows plots (histogram, Bloch multivector, scatter with circle, convergence curve).
 
-### Option B — Script (Optional)
+### Option B - Script (Optional)
 You can extract the logic into a Python script that:
 - Builds the base circuit for a chosen `nqubits`.
 - Sweeps `θ` across iterations.
